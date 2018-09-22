@@ -1,0 +1,202 @@
+body{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+ .car-image-div{
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 200px;
+     width: 200px;
+     min-width: 200px;
+     border-radius: 5px;
+     margin: 1em;
+     background-repeat: no-repeat;
+     background-size: cover;
+     -webkit-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+     -moz-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+     box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+}
+ .cars-img-text{
+     top: 0;
+     left: 0;
+     background: rgba(0,0,0,0.5);
+     height: 100%;
+     width: 100%;
+     margin: 0;
+     display: none;
+     align-items: center;
+     justify-content: center;
+     color: white;
+}
+ .car-image-div:hover > p {
+     display: flex;
+}
+ #cars-list{
+     overflow-x: scroll;
+     width: 100%;
+     display: flex;
+     justify-content: flex-start;
+     border-bottom: 3px dotted #4c4c428f;
+     box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+     margin-bottom: 1px;
+     margin-top: 1em;
+}
+ #cars-details{
+     width: 500px;
+     margin: 1em;
+     margin-left: 420px;
+}
+ .card-title, .card-subtitle{
+     text-align: center;
+}
+ .car-image{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     min-height: 200px;
+     width: 200px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     margin-left: 125px;
+}
+ #cars-bottom-links{
+     text-align: center;
+}
+ #car-model{
+     text-align: center;
+     font-weight: bold;
+     margin: 1em;
+}
+ section {
+     background-image: url(images/bg.jpg);
+     background-size: cover;
+     width: 100%;
+}
+ footer {
+     height: 50px;
+     width: 100%;
+     background-color:#4c4c428f;
+}
+ .arbaz {
+     color: white;
+     text-align: center;
+     font-size: 25px;
+     margin-top: 10px;
+}
+ span {
+     color: blue;
+     cursor: pointer;
+}
+
+@media only screen and (max-width:425px) and (min-width:320px) {
+	#cars-details {
+	    width: 91%;
+	    margin: 1em;
+	}
+	.car-image {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 26px;
+	}
+	.car-image-div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 135px;
+    width: 135px;
+    min-width: 135px;
+    border-radius: 5px;
+    margin: 1em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+	}
+
+}
+@media only screen and (max-width:768px) and (min-width:425px) {
+#cars-details {
+    width: 347px;
+    margin: 1em;
+    margin-left: 220px;
+}
+
+
+	.car-image {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 54px;
+	}
+	.car-image-div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 135px;
+    width: 135px;
+    min-width: 135px;
+    border-radius: 5px;
+    margin: 1em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+	}
+
+}
+@media only screen and (max-width:1024px) and (min-width:769px) {
+	#cars-details {
+    	width: 465px;
+    	margin: 1em;
+    	margin-left: 290px;
+	}
+
+
+	.car-image {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 110px;
+	}
+	.car-image-div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 135px;
+    width: 135px;
+    min-width: 135px;
+    border-radius: 5px;
+    margin: 1em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.75);
+	}
+
+}
